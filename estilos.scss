@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@200 & family= Poppins & family= Roboto & display=swap");
+@import url('https://fonts.googleapis.com/css2? family= Lora & family= Oswald & family= Ysabeau & display=swap');
+//fonts
+
+$font1: 'Montserrat', sans-serif;
+$font2: 'Poppins', sans-serif;
+$font3: 'Roboto', sans-serif;
+$font4: 'Lora', serif;
+$font5: 'Oswald', sans-serif;
+$font6: 'Ysabeau', sans-serif;
+
+//colors
+
+$color0: #fff;
+$color1:#00A86B;
+$color2: #845EC2;
+$color3: rgba(41, 23, 1, 0.7);
+$color4: #553b79;
+$color5: #878ec2;
+$color6: #90c296;
+$color7:#000;
+$color8: #8FBC8B;
+$color9: #2E8B57;
+$color10:#e84624;
+$color11:#F79540;
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header {
+
+    width: 100%;
+
+    //inicia barra de navegación
+    .navbar {
+        background-color: $color1;
+        /*background-image: linear-gradient( to bottom, $color9, $color8);*/
+        min-height: 90px;
+        
+        
+
+        span {
+            color: $color0;
+            font-weight: bold;
+            font-size: 25px;
+            font-family: $font1;
+        }
+
+        .navbar-toggler {
+            border: none;
+
+            i {
+                color: $color7;
+            }
+        }
+
+        .nav-link {
+            color: $color7 !important;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 2px;
+        }
+
+        .nav-link:hover {
+            background-color: $color11;
+            border-radius: 4px;
+            transition: 0.5 s;
+        }
+
+    }
+}
+
+//fin barra de navegación
+
+//inicia inicio//
+
+//inicia carrusel
+
+.main1 {
+    width: 100%;
+    background-color: $color7;
+    /*background-image: linear-gradient( to top, $color11, $color0);*/
+
+    .container {
+
+        width: 100%;
+
+        img {
+
+            object-fit: cover;
+            height: 500px;
+        }
+
+        .carousel-caption {
+
+            background-color: $color3;
+            text-align: center;
+            margin-bottom: 100px;
+
+            h1 {
+                color: $color0;
+                text-shadow: 1px 1px 1px $color7;
+                font-family: $font4;
+                font-size: 40px;
+
+            }
+
+            p {
+                color: $color0;
+                text-shadow: 1px 1px 1px $color7;
+                font-family: $font4;
+                font-size: 18px;
+            }
+
+        }
+    }
+
+}
+
+//fin de carrusel
+
+//inicia hacemos que tu marca se destaque
+
+.marcah2 {
+
+    background-color: $color1;
+    color: $color7;
+    text-align: center;
+    padding: 30px;
+    font-family: $font4;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px $color0;
+    
+}
+
+
+.marca {
+
+    width: 100%;
+    height: auto;
+    background-color: $color7;
+    /*background-image: linear-gradient( to bottom, $color11, $color0);*/
+    margin-bottom: 0;
+
+
+
+    .nleft {
+        width: 100%;
+        height: 400px;
+        background-image: url(img/carrucel1/WhatsApp\ Image\ 2023-04-15\ at\ 11.06.45.jpeg);
+        background-size: cover;
+        background-position: center;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+
+    }
+
+    .nleft:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+
+    .ncenter {
+
+        width: 100%;
+        height: 400px;
+        background-image: url(img/carrucel1/picada.jpeg);
+        background-size: cover;
+        background-position: center;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+
+    }
+
+    .ncenter:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+
+    .nright {
+        width: 100%;
+        height: 250px;
+        margin-top: 100px;
+        text-align: center;
+        margin-left: 30px;
+
+        p {
+            font-family: $font4;
+            font-size: 20px;
+            color: $color11;
+            font-weight: bold;
+            
+
+        }
+
+    }
+
+    .nright:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+
+}
+
+//fin hacemos que tu marca se destaca
+
+//inicia cómo lo hacemos
+
+.clh {
+
+    @extend.marcah2
+}
+
+.sec2 {
+
+    width: 100%;
+    height: 400px;
+    background-color: $color7;
+    /*background-image: linear-gradient( to bottom, $color11, $color0);*/
+
+    
+
+    .divp {
+
+        display: flex;
+        justify-content: center;
+        align-items: flex;
+        margin-top: 100px;
+        
+
+        p {
+            height: 250px;
+            color: $color11;
+            background-position: center;
+            font-family: $font4;
+            font-size: 20px;
+            text-align: center;
+            display: flex;
+            font-weight: bold;
+
+        }
+    }
+}
+
+//inicio servicios
+
+
+.servicios {
+
+    width: 100%;
+    background-color: $color1;
+    /*background-image: linear-gradient( to top, $color11, $color0);*/
+    padding: 50px;
+    margin-bottom: 0;
+
+    .col {
+
+        margin-left: 50px;
+        /*background-color: $color8;*/
+        /*border: 5px solid $color2;*/
+        padding: 30px;
+        border-radius: 8px;
+        
+
+        .mar {
+            text-align: center;
+            
+
+
+        }
+        .icons {
+
+            width: 70px;
+            height: 70px;
+        }
+
+        .icons:hover {
+
+            transform: scale(1.1);
+            transition: 1s;
+            cursor: pointer;
+        }
+
+
+    }
+
+    .col:hover {
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+
+    }
+
+
+    h4 {
+        text-align: center;
+        font-size: 20px;
+        color: $color10;
+        font-family: $font3;
+        padding: 10px;
+        text-shadow: 2px 2px 2px $color7;
+    }
+
+    h4:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    p {
+        text-align: center;
+        font-size: 15px;
+        color: $color4;
+        font-family: $font3;
+    }
+
+    p:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+
+}
+
+.masinfo {
+    margin-top: 350px;
+    /*margin-left: 10px;*/
+    color: $color4;
+    font-size: 16px;
+    font-family: $font3;
+    text-align: center;
+    /*background-color: $color10;*/
+    border-radius:10px;
+    padding: 10px;
+    
+}
+
+.masinfo:hover {
+
+    color: $color10;
+}
+
+//fin servicios//
+
+//inicia footer//
+
+footer {
+
+    background-color: $color7;
+    
+
+    iframe {
+        padding: 20px;
+        margin-right: 200px;
+    }
+
+    h5 {
+
+        padding-top: 30px;
+        color: $color11;
+        font-family: $font4;
+        font-weight: bold;
+        
+
+    }
+
+    p {
+
+        font-size: 20px;
+        color: $color11;
+        font-family: $font4;
+
+        i {
+            font-size: 30px;
+            color: $color11;
+        }
+
+        i:hover {
+            color: $color4;
+        }
+    }
+    }
+
+//fin inicio//

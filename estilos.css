@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@200 & family= Poppins & family= Roboto & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Lora & family= Oswald & family= Ysabeau & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+}
+header .navbar {
+  background-color: #00A86B;
+  /*background-image: linear-gradient( to bottom, $color9, $color8);*/
+  min-height: 90px;
+}
+header .navbar span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+header .navbar .navbar-toggler {
+  border: none;
+}
+header .navbar .navbar-toggler i {
+  color: #000;
+}
+header .navbar .nav-link {
+  color: #000 !important;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2px;
+}
+header .navbar .nav-link:hover {
+  background-color: #F79540;
+  border-radius: 4px;
+  transition: 0.5 s;
+}
+
+.main1 {
+  width: 100%;
+  background-color: #000;
+  /*background-image: linear-gradient( to top, $color11, $color0);*/
+}
+.main1 .container {
+  width: 100%;
+}
+.main1 .container img {
+  object-fit: cover;
+  height: 500px;
+}
+.main1 .container .carousel-caption {
+  background-color: rgba(41, 23, 1, 0.7);
+  text-align: center;
+  margin-bottom: 100px;
+}
+.main1 .container .carousel-caption h1 {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-family: "Lora", serif;
+  font-size: 40px;
+}
+.main1 .container .carousel-caption p {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-family: "Lora", serif;
+  font-size: 18px;
+}
+
+.marcah2, .clh {
+  background-color: #00A86B;
+  color: #000;
+  text-align: center;
+  padding: 30px;
+  font-family: "Lora", serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.marca {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  /*background-image: linear-gradient( to bottom, $color11, $color0);*/
+  margin-bottom: 0;
+}
+.marca .nleft {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/carrucel1/WhatsApp\ Image\ 2023-04-15\ at\ 11.06.45.jpeg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.marca .nleft:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+.marca .ncenter {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/carrucel1/picada.jpeg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.marca .ncenter:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+.marca .nright {
+  width: 100%;
+  height: 250px;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 30px;
+}
+.marca .nright p {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  color: #F79540;
+  font-weight: bold;
+}
+.marca .nright:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.sec2 {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+  /*background-image: linear-gradient( to bottom, $color11, $color0);*/
+}
+.sec2 .divp {
+  display: flex;
+  justify-content: center;
+  align-items: flex;
+  margin-top: 100px;
+}
+.sec2 .divp p {
+  height: 250px;
+  color: #F79540;
+  background-position: center;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.servicios {
+  width: 100%;
+  background-color: #00A86B;
+  /*background-image: linear-gradient( to top, $color11, $color0);*/
+  padding: 50px;
+  margin-bottom: 0;
+}
+.servicios .col {
+  margin-left: 50px;
+  /*background-color: $color8;*/
+  /*border: 5px solid $color2;*/
+  padding: 30px;
+  border-radius: 8px;
+}
+.servicios .col .mar {
+  text-align: center;
+}
+.servicios .col .icons {
+  width: 70px;
+  height: 70px;
+}
+.servicios .col .icons:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+.servicios .col:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+.servicios h4 {
+  text-align: center;
+  font-size: 20px;
+  color: #e84624;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  text-shadow: 2px 2px 2px #000;
+}
+.servicios h4:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+.servicios p {
+  text-align: center;
+  font-size: 15px;
+  color: #553b79;
+  font-family: "Roboto", sans-serif;
+}
+.servicios p:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.masinfo {
+  margin-top: 350px;
+  /*margin-left: 10px;*/
+  color: #553b79;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  /*background-color: $color10;*/
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.masinfo:hover {
+  color: #e84624;
+}
+
+footer {
+  background-color: #000;
+}
+footer iframe {
+  padding: 20px;
+  margin-right: 200px;
+}
+footer h5 {
+  padding-top: 30px;
+  color: #F79540;
+  font-family: "Lora", serif;
+  font-weight: bold;
+}
+footer p {
+  font-size: 20px;
+  color: #F79540;
+  font-family: "Lora", serif;
+}
+footer p i {
+  font-size: 30px;
+  color: #F79540;
+}
+footer p i:hover {
+  color: #553b79;
+}
+
+/*# sourceMappingURL=estilos.css.map */
