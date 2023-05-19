@@ -111,13 +111,13 @@ header {
 
             background-color: $color3;
             text-align: center;
-            margin-bottom: 100px;
+            margin-bottom: 150px;
 
             h1 {
                 color: $color0;
                 text-shadow: 1px 1px 1px $color7;
                 font-family: $font4;
-                font-size: 40px;
+                font-size: 30px;
 
             }
 
@@ -235,7 +235,7 @@ header {
 
 //fin hacemos que tu marca se destaca
 
-//inicia cómo lo hacemos
+//inicia cómo lo hacemos//
 
 .clh {
 
@@ -256,11 +256,11 @@ header {
         display: flex;
         justify-content: center;
         align-items: flex;
-        margin-top: 50px;
+        margin-top: 25px;
 
 
         p {
-            height: 250px;
+            height: auto;
             color: $color11;
             background-position: center;
             font-family: $font4;
@@ -268,7 +268,7 @@ header {
             text-align: center;
             display: flex;
             font-weight: bold;
-
+            justify-content: center;
         }
     }
 }
@@ -637,3 +637,61 @@ footer {
 
 
 //fin información de servicios//
+
+//inicio portfolio//
+
+//inicia jumbotron 3//
+.jumbotron3 {
+
+    background-color: $color7;
+    text-align: center;
+    height: 100 px;
+    padding: 20px;
+}
+//fin jumbotron 3//
+
+.portfolio {
+
+    background-color: $color7;
+    padding: 30px;
+    margin-bottom: 0;
+
+    img {
+
+        width: 450 px;
+        height: 300px;
+    }
+
+    .port:hover {
+
+        transform: scale(1.1);
+        transition: 1s;
+        cursor: pointer;
+    }
+}
+
+//inicio footer 4//
+
+.footer4 {
+
+    background-color: $color4;
+
+    h5 {
+        color:$color7;
+    }
+
+    p {
+        color:$color7;
+
+        i {
+            color: $color7;
+        }
+
+        i:hover {
+
+            color: $color5;
+        }
+    }
+}
+//fin footer4//
+//fin portfolio//
