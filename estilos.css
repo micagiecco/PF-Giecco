@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@200 & family= Poppins & family= Roboto & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Lora & family= Oswald & family= Ysabeau & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -180,8 +181,8 @@ header .navbar .nav-link:hover {
   text-align: center;
 }
 .servicios .col .icons {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 90px;
 }
 .servicios .col .icons:hover {
   transform: scale(1.1);
@@ -200,6 +201,7 @@ header .navbar .nav-link:hover {
   font-family: "Roboto", sans-serif;
   padding: 10px;
   text-shadow: 2px 2px 2px #000;
+  margin-bottom: 50px;
 }
 .servicios h4:hover {
   transform: scale(1.1);
@@ -219,7 +221,7 @@ header .navbar .nav-link:hover {
 }
 
 .masinfo {
-  margin-top: 350px;
+  margin-top: 250px;
   /*margin-left: 10px;*/
   color: #553b79;
   font-size: 16px;
@@ -258,6 +260,112 @@ footer p i {
 }
 footer p i:hover {
   color: #553b79;
+}
+
+.jumbotron {
+  background-color: #000;
+  /*background-image: linear-gradient(to top, $color4, $color6);*/
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  margin-bottom: 0;
+}
+.jumbotron h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Lora", serif;
+  color: #8FBC8B;
+  padding: 20px;
+}
+.jumbotron p {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #8FBC8B;
+  font-family: "Merriweather", serif;
+}
+.jumbotron p i {
+  color: #8FBC8B;
+}
+
+.agencia {
+  background-color: #90c296;
+  margin-bottom: 0;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: "Merriweather", serif;
+  color: #000;
+}
+
+.agencia2 {
+  background-color: #90c296;
+  padding: 70px;
+}
+.agencia2 img {
+  width: 1500px;
+  height: 500px;
+  padding-top: 30px;
+}
+.agencia2 h2 {
+  font-family: "Merriweather", serif;
+  color: #000;
+}
+.agencia2 p {
+  font-family: "Merriweather", serif;
+  color: #000;
+}
+
+.equipo {
+  background-color: #90c296;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  padding: 30px;
+  margin-bottom: 0;
+  color: #000;
+}
+
+.equipo1 {
+  background-color: #90c296;
+}
+.equipo1 img {
+  width: 300px;
+  height: 450px;
+}
+.equipo1 img:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+.equipo1 h4 {
+  color: #000;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.equipo1 p {
+  color: #000;
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.footer2 {
+  background-color: #000;
+}
+.footer2 h5 {
+  color: #90c296;
+}
+.footer2 p {
+  color: #90c296;
+}
+.footer2 p i {
+  color: #90c296;
+}
+.footer2 p i:hover {
+  color: #845EC2;
 }
 
 /*# sourceMappingURL=estilos.css.map */

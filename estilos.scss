@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@200 & family= Poppins & family= Roboto & display=swap");
 @import url('https://fonts.googleapis.com/css2? family= Lora & family= Oswald & family= Ysabeau & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
 //fonts
 
 $font1: 'Montserrat', sans-serif;
@@ -8,21 +11,22 @@ $font3: 'Roboto', sans-serif;
 $font4: 'Lora', serif;
 $font5: 'Oswald', sans-serif;
 $font6: 'Ysabeau', sans-serif;
+$font7: 'Merriweather', serif;
 
 //colors
 
 $color0: #fff;
-$color1:#00A86B;
+$color1: #00A86B;
 $color2: #845EC2;
 $color3: rgba(41, 23, 1, 0.7);
 $color4: #553b79;
 $color5: #878ec2;
 $color6: #90c296;
-$color7:#000;
+$color7: #000;
 $color8: #8FBC8B;
 $color9: #2E8B57;
-$color10:#e84624;
-$color11:#F79540;
+$color10: #e84624;
+$color11: #F79540;
 
 
 
@@ -49,8 +53,8 @@ header {
         background-color: $color1;
         /*background-image: linear-gradient( to bottom, $color9, $color8);*/
         min-height: 90px;
-        
-        
+
+
 
         span {
             color: $color0;
@@ -144,7 +148,7 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px $color0;
-    
+
 }
 
 
@@ -213,7 +217,7 @@ header {
             font-size: 20px;
             color: $color11;
             font-weight: bold;
-            
+
 
         }
 
@@ -245,7 +249,7 @@ header {
     background-color: $color7;
     /*background-image: linear-gradient( to bottom, $color11, $color0);*/
 
-    
+
 
     .divp {
 
@@ -253,7 +257,7 @@ header {
         justify-content: center;
         align-items: flex;
         margin-top: 100px;
-        
+
 
         p {
             height: 250px;
@@ -287,18 +291,19 @@ header {
         /*border: 5px solid $color2;*/
         padding: 30px;
         border-radius: 8px;
-        
+
 
         .mar {
             text-align: center;
-            
+
 
 
         }
+
         .icons {
 
-            width: 70px;
-            height: 70px;
+            width: 100px;
+            height: 90px;
         }
 
         .icons:hover {
@@ -326,6 +331,7 @@ header {
         font-family: $font3;
         padding: 10px;
         text-shadow: 2px 2px 2px $color7;
+        margin-bottom: 50px;
     }
 
     h4:hover {
@@ -352,16 +358,16 @@ header {
 }
 
 .masinfo {
-    margin-top: 350px;
+    margin-top: 250px;
     /*margin-left: 10px;*/
     color: $color4;
     font-size: 16px;
     font-family: $font3;
     text-align: center;
     /*background-color: $color10;*/
-    border-radius:10px;
+    border-radius: 10px;
     padding: 10px;
-    
+
 }
 
 .masinfo:hover {
@@ -376,7 +382,7 @@ header {
 footer {
 
     background-color: $color7;
-    
+
 
     iframe {
         padding: 20px;
@@ -389,7 +395,7 @@ footer {
         color: $color11;
         font-family: $font4;
         font-weight: bold;
-        
+
 
     }
 
@@ -408,6 +414,148 @@ footer {
             color: $color4;
         }
     }
-    }
+}
 
 //fin inicio//
+
+//inicia sobre nosotros//
+
+//inicia jumbotron//
+
+.jumbotron {
+
+    background-color: $color7;
+    /*background-image: linear-gradient(to top, $color4, $color6);*/
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    margin-bottom: 0;
+
+
+    h1 {
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+        font-family: $font4;
+        color: $color8;
+        padding: 20px;
+    }
+
+    p {
+        margin-left: 30px;
+        margin-top: 20px;
+        color: $color8;
+        font-family: $font7;
+
+        i {
+            color: $color8;
+
+        }
+    }
+}
+
+//fin jumbotron//
+
+.agencia {
+
+    background-color: $color6;
+    margin-bottom: 0;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: $font7;
+    color: $color7;
+
+}
+
+.agencia2 {
+    background-color: $color6;
+    padding: 70px;
+
+    img {
+        width: 1500px;
+        height: 500px;
+        padding-top: 30px;
+
+    }
+
+    h2 {
+
+        font-family: $font7;
+        color:$color7;
+    }
+
+    p {
+        font-family: $font7;
+        color:$color7;
+    }
+}
+
+.equipo {
+    background-color: #90c296;
+    font-size: 20px;
+    font-family: $font7;
+    padding: 30px;
+    margin-bottom: 0;
+    color: $color7;
+
+}
+
+.equipo1 {
+    background-color: $color6;
+
+    img {
+        width: 300px;
+        height: 450px;
+    }
+
+    img:hover {
+
+        transform: scale(0.9);
+        transition: 1s;
+    }
+    h4 {
+        color: $color7;
+        font-weight: bold;
+        font-family: $font7;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    p {
+        color: $color7;
+        font-family: $font7;
+        font-size: 15px;
+        text-align: center;
+        margin-top: -5px;
+    }
+}
+
+//inicia footer 2//
+
+.footer2 {
+    background-color: $color7;
+
+    h5 {
+        color: $color6;
+
+    }
+
+    p {
+        color: $color6;
+
+        i {
+            color: $color6;
+        }
+
+        i:hover {
+            color: $color2;
+        }
+
+    }
+}
+
+//fin footer 2//
+
+//fin sobre nosotros//
