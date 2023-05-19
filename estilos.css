@@ -150,7 +150,7 @@ header .navbar .nav-link:hover {
   display: flex;
   justify-content: center;
   align-items: flex;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .sec2 .divp p {
   height: 250px;
@@ -165,9 +165,9 @@ header .navbar .nav-link:hover {
 
 .servicios {
   width: 100%;
-  background-color: #00A86B;
+  background-color: #2E8B57;
   /*background-image: linear-gradient( to top, $color11, $color0);*/
-  padding: 50px;
+  padding: 30px;
   margin-bottom: 0;
 }
 .servicios .col {
@@ -181,8 +181,8 @@ header .navbar .nav-link:hover {
   text-align: center;
 }
 .servicios .col .icons {
-  width: 100px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
 }
 .servicios .col .icons:hover {
   transform: scale(1.1);
@@ -197,11 +197,10 @@ header .navbar .nav-link:hover {
 .servicios h4 {
   text-align: center;
   font-size: 20px;
-  color: #e84624;
-  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-family: "Merriweather", serif;
   padding: 10px;
   text-shadow: 2px 2px 2px #000;
-  margin-bottom: 50px;
 }
 .servicios h4:hover {
   transform: scale(1.1);
@@ -210,9 +209,10 @@ header .navbar .nav-link:hover {
 }
 .servicios p {
   text-align: center;
-  font-size: 15px;
-  color: #553b79;
-  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Merriweather", serif;
+  text-shadow: 1px 1px 1px #000;
 }
 .servicios p:hover {
   transform: scale(1.1);
@@ -221,9 +221,9 @@ header .navbar .nav-link:hover {
 }
 
 .masinfo {
-  margin-top: 250px;
+  margin-top: 350px;
   /*margin-left: 10px;*/
-  color: #553b79;
+  color: #000;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -233,7 +233,7 @@ header .navbar .nav-link:hover {
 }
 
 .masinfo:hover {
-  color: #e84624;
+  color: #F79540;
 }
 
 footer {
@@ -366,6 +366,57 @@ footer p i:hover {
 }
 .footer2 p i:hover {
   color: #845EC2;
+}
+
+.imyd {
+  background-color: #000;
+}
+.imyd .servi {
+  /*border: 5px solid $color1;*/
+  margin-top: 60px;
+  padding: 20px;
+  margin-left: 30px;
+  text-align: center;
+  background-image: linear-gradient(to top, #fff, #000);
+  /*background-color: $color0;*/
+}
+.imyd .servi:hover {
+  transform: scale(1.05);
+  transition: 1s;
+  cursor: pointer;
+}
+.imyd .icons2 {
+  width: 90px;
+  height: 100px;
+}
+.imyd h3 {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #e84624;
+  text-shadow: 1px 1px 1px #000;
+  text-align: center;
+}
+.imyd p {
+  font-family: "Lora", serif;
+  color: #000;
+  text-align: center;
+}
+
+.footer3 {
+  background-color: #000;
+  margin-top: 50px;
+  width: 100%;
+}
+.footer3 h5 {
+  color: #e84624;
+}
+.footer3 p {
+  color: #e84624;
+}
+.footer3 i {
+  color: #e84624;
 }
 
 /*# sourceMappingURL=estilos.css.map */
