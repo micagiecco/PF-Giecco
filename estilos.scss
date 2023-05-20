@@ -111,9 +111,11 @@ header {
 
             background-color: $color3;
             text-align: center;
-            margin-bottom: 150px;
+            margin-bottom: 80px;
+            /*padding: 20px;*/
 
             h1 {
+                text-align: center;
                 color: $color0;
                 text-shadow: 1px 1px 1px $color7;
                 font-family: $font4;
@@ -160,77 +162,79 @@ header {
     /*background-image: linear-gradient( to bottom, $color11, $color0);*/
     margin-bottom: 0;
 
+    .mar {
+        overflow: hidden;
 
-
-    .nleft {
-        width: 40%;
-        height: 400px;
-        background-image: url(img/carrucel1/WhatsApp\ Image\ 2023-04-15\ at\ 11.06.45.jpeg);
-        background-size: cover;
-        background-position: center;
-        margin-left: 30px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-
-
-    }
-
-    .nleft:hover {
-
-        transform: scale(1.1);
-        transition: 1s;
-        cursor: pointer;
-    }
-
-
-    .ncenter {
-
-        width: 40%;
-        height: 400px;
-        background-image: url(img/carrucel1/picada.jpeg);
-        background-size: cover;
-        background-position: center;
-        margin-left: 30px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-
-
-    }
-
-    .ncenter:hover {
-
-        transform: scale(1.1);
-        transition: 1s;
-        cursor: pointer;
-    }
-
-
-    .nright {
-        width: 100%;
-        height: 250px;
-        margin-top: 100px;
-        text-align: center;
-        /*margin-left: 30px;*/
-        padding: 25px;
-
-        p {
-            font-family: $font4;
-            font-size: 20px;
-            color: $color11;
-            font-weight: bold;
+        .nleft {
+            width: 40%;
+            height: 400px;
+            background-image: url(img/carrucel1/WhatsApp\ Image\ 2023-04-15\ at\ 11.06.45.jpeg);
+            background-size: cover;
+            background-position: center;
+            margin-left: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
 
 
         }
 
+        .nleft:hover {
+
+            transform: scale(1.1);
+            transition: 1s;
+            cursor: pointer;
+        }
+
+
+        .ncenter {
+
+            width: 40%;
+            height: 400px;
+            background-image: url(img/carrucel1/picada.jpeg);
+            background-size: cover;
+            background-position: center;
+            margin-left: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+
+        }
+
+        .ncenter:hover {
+
+            transform: scale(1.1);
+            transition: 1s;
+            cursor: pointer;
+        }
+
+
+        .nright {
+            width: 100%;
+            height: 250px;
+            margin-top: 50px;
+            text-align: center;
+            /*margin-left: 30px;*/
+            padding: 25px;
+
+            p {
+                font-family: $font4;
+                font-size: 20px;
+                color: $color11;
+                font-weight: bold;
+
+
+            }
+
+        }
+
+        .nright:hover {
+
+            transform: scale(1.1);
+            transition: 1s;
+            cursor: pointer;
+        }
+
     }
-
-    .nright:hover {
-
-        transform: scale(1.1);
-        transition: 1s;
-        cursor: pointer;
-    }
-
 
 }
 
@@ -246,7 +250,7 @@ header {
 .sec2 {
 
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: $color7;
     /*background-image: linear-gradient( to bottom, $color11, $color0);*/
 
@@ -413,8 +417,9 @@ footer {
         font-family: $font4;
 
         i {
-            font-size: 30px;
+            font-size: 25px;
             color: $color11;
+            padding: 5px;
         }
 
         i:hover {
@@ -432,25 +437,24 @@ footer {
 .jumbotron {
 
     background-color: $color7;
-    /*background-image: linear-gradient(to top, $color4, $color6);*/
     width: 100%;
-    height: 500px;
+    height:400px;
     background-position: center;
     margin-bottom: 0;
 
 
     h1 {
         text-align: center;
-        font-size: 45px;
+        font-size: 40px;
         font-weight: bold;
         font-family: $font4;
         color: $color8;
-        padding: 20px;
+        /*padding: 20px;*/
     }
 
     p {
-        margin-left: 30px;
-        margin-top: 20px;
+        margin-left: 20px;
+        margin-top: 15px;
         color: $color8;
         font-family: $font7;
 
@@ -480,7 +484,7 @@ footer {
     padding: 70px;
 
     img {
-        width: 1500px;
+        width: 1000px;
         height: 500px;
         padding-top: 30px;
 
@@ -653,50 +657,63 @@ footer {
     text-align: center;
     height: 100 px;
     padding: 20px;
-    
+
     h1 {
-        color: $color0;
-        font-size: $font7;
+        color: $color6;
+        font-size: $font5;
     }
 }
+
 //fin jumbotron 3//
 
 .portfolio {
-
+    width: 100%;
     background-color: $color7;
     padding: 30px;
     margin-bottom: 0;
 
-    img {
+    .gal {
 
-        width: 500 px;
-        height: 450px;
+        overflow: hidden;
 
+        h4 {
+
+            color: $color6;
+            font-family: $font5;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        img {
+
+            width: 500 px;
+            height: 450px;
+
+
+        }
+
+        .port:hover {
+
+            transform: scale(1.1);
+            transition: 1s;
+            cursor: pointer;
+        }
 
     }
-    
-    .port:hover {
-
-        transform: scale(1.1);
-        transition: 1s;
-        cursor: pointer;
-    }
-
-
 }
 
 //inicio footer 4//
 
 .footer4 {
 
-    background-color: $color4;
+    background-color: $color1;
 
     h5 {
-        color:$color7;
+        color: $color7;
     }
 
     p {
-        color:$color7;
+        color: $color7;
 
         i {
             color: $color7;
@@ -704,74 +721,113 @@ footer {
 
         i:hover {
 
-            color: $color5;
+            color: $color0;
         }
     }
 }
+
 //fin footer4//
 //fin portfolio//
 
 // inicio contactanos //
 
-.main5 {
-    background-color: #732b58;
-    width: 100%;
-    height: 800 px;
-
-    h1 {
-
-        font-family: $font2;
-        font-size: 50px;
-        color: $color2;
-        text-align: center;
-    }
-
-    h5 {
-        font-family: $font2;
-        font-size: 20px;
-        text-align: center;
-        color: $color2;
-    }
-
-}
-
-//inicio formulario//
-.formulario {
-    width: 400px;
-    background-color: $color8;
+.mainform {
+    font-family: $font7;
+    background-color: $color7;
+    /*background-image: radial-gradient(#79d7b0 0.5px, transparent 0.5px), radial-gradient(#79d7b0 0.5px, #e5e5f7 0.5px);*/
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    display: flex;
+    min-height: 100vh;
     padding: 30px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 4px;
-    font-family: $font2;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color:#732b58;
 
-    .field {
-        width: 100%;
-        background-color: $color2;
-        padding: 10px;
-        border-radius: 4px;
-        margin-bottom: 16px;
-        border: 1px solid #732b58;
-        font-family: $font2;
-        
-        
+    .form {
 
-    }
-    .btn {
-        width: 100%;
-        height: 30px;
-        background-color: #732b58;
-        font-family: $font2;
-        font-size: 20px;
-        color:#fff;
+        background-color: $color0;
+        margin: auto;
+        width: 90%;
+        max-width: 400px;
+        padding: 4.5em 3em;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
         text-align: center;
-        background-position: center;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: .5rem;
+        }
+
+        p {
+            font-weight: 300px
+        }
+
+        ;
+
+        .form__container {
+            margin-top: 3em;
+            display: grid;
+            gap: 2.5em;
+
+            .form__group {
+                position: relative;
+                color: $color7;
+
+                .form__input {
+
+                    width: 100%;
+                    background-color: $color6;
+                    font-size: 1rem;
+                    padding: .6em .3em;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid var(--color);
+                    font-family: $font4;
+
+                }
+
+                .form__input:focus + .form__label,
+                .form__input:not(:placeholder-shown) + .form__label {
+
+                    transform: translateY(-12px) scale(.7);
+                    transform-origin: left top;
+                    color: $color7;
+                }
+
+                .form__label {
+
+                    margin-top: 60px;
+                    color: var(--color);
+                    cursor: pointer;
+                    position: absolute;
+                    top: 0;
+                    left: 5px;
+                    transform: translateY(10px);
+                    transition: transform .5s, $color7 3s;
+                }
+            }
+            
+            .form__submit {
+                background-color: $color7;
+                color: $color0;
+                font-family: $font2;
+                font-weight: bold;
+                font-weight: 300;
+                font-size: 1rem;
+                padding: .8em 0 ;
+                border: none;
+                border-radius: .5em;
+
+
+            }
+
+        }
+
+
     }
+
 }
+
+
 //fin formulario//
 
 
@@ -779,27 +835,31 @@ footer {
 
 .footer5 {
 
-    background-color: $color2;
+    background-color: $color1;
 
     h5 {
-        color:$color4;
+        color: $color7;
 
     }
 
     p {
 
-        color: $color4;
+        color: $color7;
 
-        i{
-            font-size: 30px;
-            color: $color4;
+        i {
+            font-size: 25px;
+            color: $color7;
+            padding: 5px;
         }
 
         i:hover {
 
-            color:$color5;
+            color: $color0;
         }
-    };
+    }
+
+    ;
 }
+
 //fin footer 5//
 // fin contactanos //
