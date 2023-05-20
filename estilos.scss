@@ -163,7 +163,7 @@ header {
 
 
     .nleft {
-        width: 100%;
+        width: 40%;
         height: 400px;
         background-image: url(img/carrucel1/WhatsApp\ Image\ 2023-04-15\ at\ 11.06.45.jpeg);
         background-size: cover;
@@ -185,7 +185,7 @@ header {
 
     .ncenter {
 
-        width: 100%;
+        width: 40%;
         height: 400px;
         background-image: url(img/carrucel1/picada.jpeg);
         background-size: cover;
@@ -210,7 +210,8 @@ header {
         height: 250px;
         margin-top: 100px;
         text-align: center;
-        margin-left: 30px;
+        /*margin-left: 30px;*/
+        padding: 25px;
 
         p {
             font-family: $font4;

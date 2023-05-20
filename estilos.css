@@ -93,7 +93,7 @@ header .navbar .nav-link:hover {
   margin-bottom: 0;
 }
 .marca .nleft {
-  width: 100%;
+  width: 40%;
   height: 400px;
   background-image: url(img/carrucel1/WhatsApp\ Image\ 2023-04-15\ at\ 11.06.45.jpeg);
   background-size: cover;
@@ -108,7 +108,7 @@ header .navbar .nav-link:hover {
   cursor: pointer;
 }
 .marca .ncenter {
-  width: 100%;
+  width: 40%;
   height: 400px;
   background-image: url(img/carrucel1/picada.jpeg);
   background-size: cover;
@@ -127,7 +127,8 @@ header .navbar .nav-link:hover {
   height: 250px;
   margin-top: 100px;
   text-align: center;
-  margin-left: 30px;
+  /*margin-left: 30px;*/
+  padding: 25px;
 }
 .marca .nright p {
   font-family: "Lora", serif;
