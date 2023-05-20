@@ -51,7 +51,8 @@ header .navbar .nav-link:hover {
   width: 100%;
 }
 .main1 .container img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 500px;
 }
 .main1 .container .carousel-caption {
@@ -105,7 +106,6 @@ header .navbar .nav-link:hover {
   transform: scale(1.1);
   transition: 1s;
   cursor: pointer;
-
 }
 .marca .ncenter {
   width: 100%;
@@ -242,8 +242,10 @@ footer {
   background-color: #000;
 }
 footer iframe {
+  width: 100px;
+  height: 200px;
+  min-width: 100%;
   padding: 20px;
-  margin-right: 200px;
 }
 footer h5 {
   padding-top: 30px;
@@ -427,6 +429,10 @@ footer p i:hover {
   height: 100 px;
   padding: 20px;
 }
+.jumbotron3 h1 {
+  color: #fff;
+  font-size: "Merriweather", serif;
+}
 
 .portfolio {
   background-color: #000;
@@ -434,8 +440,8 @@ footer p i:hover {
   margin-bottom: 0;
 }
 .portfolio img {
-  width: 450 px;
-  height: 300px;
+  width: 500 px;
+  height: 450px;
 }
 .portfolio .port:hover {
   transform: scale(1.1);
@@ -459,4 +465,70 @@ footer p i:hover {
   color: #878ec2;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.main5 {
+  background-color: #732b58;
+  width: 100%;
+  height: 800 px;
+}
+.main5 h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #845EC2;
+  text-align: center;
+}
+.main5 h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #845EC2;
+}
+
+.formulario {
+  width: 400px;
+  background-color: #8FBC8B;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #732b58;
+}
+.formulario .field {
+  width: 100%;
+  background-color: #845EC2;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #732b58;
+  font-family: "Poppins", sans-serif;
+}
+.formulario .btn {
+  width: 100%;
+  height: 30px;
+  background-color: #732b58;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-position: center;
+}
+
+.footer5 {
+  background-color: #845EC2;
+}
+.footer5 h5 {
+  color: #553b79;
+}
+.footer5 p {
+  color: #553b79;
+}
+.footer5 p i {
+  font-size: 30px;
+  color: #553b79;
+}
+.footer5 p i:hover {
+  color: #878ec2;
+}/*# sourceMappingURL=estilos.css.map */
