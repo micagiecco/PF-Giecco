@@ -641,7 +641,12 @@ footer {
 
 //inicio portfolio//
 
-h2 {
+.portfolio {
+
+    background-color: $color7;
+
+
+H2 {
 
     text-align: center;
     background-color: $color7;
@@ -657,7 +662,7 @@ h2 {
     height: 400px;
     background-color: $color7;
     padding: 20px;
-    
+
 
 
 
@@ -666,11 +671,39 @@ h2 {
         width: 80%;
         height: 200px;
         background-color: $color7;
+        background-size: cover;
+        background-position: center;
 
         .item1 {
-            
+            background-image: url(./img/cin/WhatsApp\ Image\ 2023-05-19\ at\ 17.57.14.jpeg);
+        }
+
+        .item2 {
+            background-image: url(./img/farmacia/hist\ te\ vas\ a\ la\ playa.jpg);
+        }
+
+        .item3 {
+            background-image: url(./img/frogurt/WhatsApp\ Image\ 2023-05-19\ at\ 15.49.58.jpeg);
+        }
+
+        .item4 {
+            background-image: url(./img/lacanastadejuaco/4f4e3d385d8a3a745f2644e017bb80f2.jpg);
+        }
+
+        .item5 {
+            background-image: url(./img/lasmarias/WhatsApp\ Image\ 2023-05-18\ at\ 10.58.47.jpeg);
+        }
+
+        .item6 {
+            background-image: url(./img/pyme/Pyme\ -\ storie\ -\ 2.jpg);
+        }
+
+        .item7 {
+            background-image: url(./img/vetelinda/WhatsApp\ Image\ 2023-05-19\ at\ 17.55.18.jpeg);
         }
 
     }
+
+}
 
 }
